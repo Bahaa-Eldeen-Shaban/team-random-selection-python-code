@@ -25,7 +25,7 @@ for _ in range(num_teams):
     team = []
     for level in levels:
     
-        *# Select a unique element from each level list*
+        # Select a unique element from each level list
         
         element = random.choice(level)
         team.append(element)
