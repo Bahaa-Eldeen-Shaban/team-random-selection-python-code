@@ -21,12 +21,12 @@ num_teams = 4
 teams = []
 
 *#Ensure there are enough unique elements for each team*
+
 for _ in range(num_teams):
+
     team = []
     for level in levels:
-    
         # Select a unique element from each level list
-        
         element = random.choice(level)
         team.append(element)
         level.remove(element)  # Remove the selected element to avoid repetition
