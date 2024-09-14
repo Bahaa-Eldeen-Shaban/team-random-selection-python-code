@@ -3,24 +3,24 @@ This project generates random, unique teams where each team contains one distinc
 
 import random
 
-**Define the four test lists*
+*#Define the four test lists*
 
 level1_list = [1, 2, 3, 4]
 level2_list = ['a', 'b', 'c', 'd']
 level3_list = [99, 88, 77, 66]
 level4_list = ["1$", "2&", "3%", "4©"]
 
-*Combine the lists into a list of lists*
+*#Combine the lists into a list of lists*
 
 levels = [level1_list, level2_list, level3_list, level4_list]
 
-# Number of teams
+*#Number of teams*
 num_teams = 4
 
-# Initialize list to store the teams
+*#Initialize list to store the teams*
 teams = []
 
-# Ensure there are enough unique elements for each team
+*#Ensure there are enough unique elements for each team*
 for _ in range(num_teams):
     team = []
     for level in levels:
