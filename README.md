@@ -15,9 +15,11 @@ level4_list = ["1$", "2&", "3%", "4©"]
 levels = [level1_list, level2_list, level3_list, level4_list]
 
 *#Number of teams*
+
 num_teams = 4
 
 *#Initialize list to store the teams*
+
 teams = []
 
 *#Ensure there are enough unique elements for each team*
