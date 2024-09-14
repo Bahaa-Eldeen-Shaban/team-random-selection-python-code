@@ -6,8 +6,11 @@ import random
 *#Define the four test lists*
 
 level1_list = [1, 2, 3, 4]
+
 level2_list = ['a', 'b', 'c', 'd']
+
 level3_list = [99, 88, 77, 66]
+
 level4_list = ["1$", "2&", "3%", "4©"]
 
 *#Combine the lists into a list of lists*
