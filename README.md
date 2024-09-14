@@ -24,12 +24,15 @@ teams = []
 for _ in range(num_teams):
     team = []
     for level in levels:
-        # Select a unique element from each level list
+    
+        *# Select a unique element from each level list*
+        
         element = random.choice(level)
         team.append(element)
         level.remove(element)  # Remove the selected element to avoid repetition
     teams.append(team)
 
-# Print the teams
+*#Print the teams*
+
 for index, team in enumerate(teams, start=1):
     print(f'team{index} =', team)
