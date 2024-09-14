@@ -3,7 +3,7 @@ This project generates random, unique teams where each team contains one distinc
 
 import random
 
-*Define the four test lists*
+**Define the four test lists*
 
 level1_list = [1, 2, 3, 4]
 level2_list = ['a', 'b', 'c', 'd']
