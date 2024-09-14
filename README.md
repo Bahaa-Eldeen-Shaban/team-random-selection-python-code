@@ -35,4 +35,5 @@ for _ in range(num_teams):
 *#Print the teams*
 
 for index, team in enumerate(teams, start=1):
+
     print(f'team{index} =', team)
